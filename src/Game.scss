@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cells {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(20, 15px);
+    grid-template-rows: repeat(20, 15px);
+    gap: 5px 5px;
+}
+
+.cell {
+    background-color: gray;
+}
